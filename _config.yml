@@ -1,0 +1,31 @@
+name: filipiz
+markdown: redcarpet
+pygments: true
+
+
+
+#
+# Plugin: jekyll-assets
+#
+assets:
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - _assets/js
+    - _assets/scss
+    - _assets/images
+    - _assets/components/foundation/scss
+    - _assets/components/modernizr
+  # Possible variants: 'yui', 'uglifier', nil
+  js_compressor: uglifier
+  # Possible variants: 'yui', 'sass', nil
+  css_compressor: sass
+  # Possible variants:
+  #   none - disables cachebusting
+  #   soft - leave filenames as-is, but `?cb=<md5>` suffix for URLs generated
+  #          with `asset_path`, `javascript` and `stylesheet`:
+  #   hard - (default) injects cachebusting checksum into processed filename:
+  cachebust: hard
+  cache: false
+  gzip: [ text/css, application/javascript ]
+  debug: true

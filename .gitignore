@@ -1,1 +1,13 @@
+#jekyll
 _site/
+
+#bower
+/_assets/components/*
+
+#foundation
+/.sass-cache/*
+*.DS_Store
+/stylesheets/*
+
+#bundler
+Gemfile.lock
