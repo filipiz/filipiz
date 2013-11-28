@@ -1,8 +1,0 @@
-{
-  "name": "filipiz",
-  "version": "0.0.1",
-  "location": "_assets/components",
-  "dependencies": {
-    "foundation": "zurb/bower-foundation"
-  }
-}
