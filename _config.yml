@@ -2,7 +2,8 @@ name: filipiz
 markdown: redcarpet
 pygments: true
 
-
+destination: ../dist
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'config.rb']
 
 #
 # Plugin: jekyll-assets
